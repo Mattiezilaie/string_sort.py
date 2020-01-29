@@ -3,7 +3,7 @@
 # Description: insertion sort that sorts a list of strings and sorting ignores the case.
 
 
-def insertion_sort(string_list):
+def string_sort(string_list):
     """Sorts a list string_list and ignores case"""
 
     for i in range(1, len(string_list)):     #Traverse through 1 to len(string_list)
