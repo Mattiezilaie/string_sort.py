@@ -13,3 +13,4 @@ def string_sort(string_list):
             string_list[j] = string_list[j + 1]
             string_list[j+1] = key
             j -= 1
+        return string_list
